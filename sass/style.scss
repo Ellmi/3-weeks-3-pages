@@ -1,88 +1,87 @@
 @import "compass/reset";
 @import "compass/css3";
 
-header {
-	background-color: #333;
-	padding: 13px 0px 0px 0px;
-	height: 55px;
-}
-
-header #slideshareLogo{
-	display: inline-block;
-	margin-left: 12%;
-}
-
-header #logo{
-	resize: both;
-	height: 42px;
-}
-
-header #slideshareLogo span {
-	position: relative;
-	bottom: 14px;
-	color: white;
-	padding-left: 10px;
-	font-size: 18px;
+body {
+	color: #fff;
 	font-family: arial;
 }
 
-header #slideshareLogo span:after{
-	content: "";
-	position: absolute;
-	bottom: 0px;
-	right: -19%;
-	width: 2px;
-	height: 19px;
-	background-color: rgb(95, 95, 95);
-	margin: 0 0 0 -23px;
+header {
+	background-color: #333;
+	padding: 10px 13%;
 }
 
 header div{
 	display:inline-block;
 }
 
-header #search {
+header .slideshareLogo span {
+	background: url("/images/ios_icon.png") no-repeat;
+	background-size: 40px;
+	display: inline-block;
+	height: 40px;
+	line-height: 40px;
+	padding-left: 50px;
+}
+
+header .slideshareLogo span:after{
+	content: "";
+	margin-left: 20px;
+	border-right: 1px solid rgb(95, 95, 95);
+}
+
+header .search {
 	border-radius: 3px;
 	border: none;
-	position: relative;
-	bottom: 15px;
 	background-color: #5f5f5f;
-	height: 33px;
-	width: 205px;
-	margin-left: 32px;
-	padding-left: 20px;
-	font-size: 16px;
+	height: 26px;
+	width: 200px;
+	padding-left: 11px;
+	font-size: 14px;
+	color: white;
+	margin-left: 15px;
 }
 
-header button {
+header .icon-search:before {
+	color: white;
 	position: relative;
-bottom: 16px;
-left: 215%;
-	background-color: orange;
+	right: 34px;
+	font-size: 15px;
+	vertical-align: middle;
+}
+
+header button.icon-search {
+	background-color: transparent;
+	border: none;
+}
+
+header .userButtons{
+	margin-left:  440px;
+}
+
+header .btn {
+	background-color: #e48126;
 	border-radius: 3px;
 	border: none;
-	width: 87px;
-	height: 38px;
 	color: white;
-	font-size: 15px;
+	width: 70px;
+	height: 30px;
+	font-size: 13px;
 }
 
-header #pen{
-	width: 54px;
-	margin-left: 2px;
-	bottom: 5px;
+header #guide{
+	background-image: url("/images/hd-icn.svg");
+	width: 45px;
+	vertical-align: middle;
+	background-position: 50% 50%;
+	background-repeat: no-repeat;
 }
 
-header #personImg{
-	resize: both;
-	width: 37px;
-	height: 37px;
-	position: relative;
-	bottom: 2px;
-	left: 215%;
-	margin-left: 17px;
-	border-radius: 2px;
-}
+header .icon-user:before {
+    vertical-align: middle;
+	margin-left: 15px;
+	font-size: 25px;
+	}
 
 nav {
 	background-color: #5f5f5f;
@@ -91,61 +90,67 @@ nav {
 
 nav li {
 	display: inline-block;
-	color: white;
-	font-family: Arial;
-	padding: 10px 18px;
+	padding: 8px 18px;
+	font-size: 14px;
 }
 
 nav li:hover{
 	background-color:rgb(110, 110, 110);
 }
         
-#contentWrapper{
-	background-image:linear-gradient(to right,black,lightgrey,black);
-	color: white;
-	font-family: arial;
+.contentWrapper{
+	background-image:linear-gradient(to bottom, #00002A, #D3D294, #00002A);
 	text-align: center;
 }
 
-#contentWrapper h1{
-	padding: 108px 0px 0px;
-	font-size: 49px;
+.contentWrapper h1{
+	padding: 13% 0px 0px;
+	font-size: 50px;
+	letter-spacing: 1px;
 }
 
-#contentWrapper p{
-	padding: 10px 0px 0px;
+.contentWrapper p{
+	padding: 25px 0px 0px;
+	font-size: 20px;
 }
-button#createNow {
-	background-color: #0080FF;
+
+button.createNow {
+	background-color: #2672ae;
 	border: none;
 	border-radius: 7px;
-	padding: 18px 34px 18px 74px;
+	padding: 18px 16px 18px 60px;
 	color: white;
-	font-size: 16px;
+	font-size: 19px;
+	line-height: 20px;
 }
 
-#linkedin{
+.linkedin{
 	position: relative;
-	left: -180px;
-	top: 8px;
+	right: 170px;
+	top: 4px;
 }
 
-button#noThanks {
+button.noThanks {
 	background-color: transparent;
-	border-color: white;
 	border-radius: 7px;
-	padding: 18px 19px;
+	padding: 16px 17px;
 	color: white;
-	font-size: 16px;
+	font-size: 17px;
+	border: 2px solid #fff;
 	}
 
-div#createOrNot{
+div.createOrNot {
 	padding-top: 64px;
 	padding-bottom: 100px;
 }
 
-#contentWrapper img{
+.contentWrapper img {
 	position:relative;
+}
+
+div.contentImages {
+	position: relative;
+	top: 3px;
 }
 
 #mobile{
@@ -161,54 +166,86 @@ div#createOrNot{
 	left: -7%;
 }
 
-footer{
+footer {
 	background-color: #333;
-	height:400px;
-	color:white;
-	font-family:arial;
-}
-#footerContent{
+	height:522px;
 	text-align: center;
-	padding-top: 63px;
+}
+
+footer .footerContent {
+	text-align: center;
+	padding-top: 43px;
 	font-size: 21px;
 }
-#footerContent p{
+
+.footerContent p{
 	margin-top: 16px;
 }
 
-#footerContent:after{
+footer .footerContent span:after{
 	content: "";
-	position: absolute;
-	bottom: 0px;
-	right: -19%;
-	width: 2px;
-	height: 19px;
-	background-color: rgb(95, 95, 95);
-	margin: 0 0 0 -23px;
+	border-bottom: 1px solid #5f5f5f;
+	display: inline-block;
+	width: 54px;
+	margin-top: 45px;
 }
-#footerCreateButton{
+
+footer ul {
+	margin: 64px 100px;
+}
+
+footer ul li {
+	display: inline-block;
+	padding: 0px 35px;
+}
+
+footer ul li p {
+	padding: 10px 0px;
+	font-size: 20px;
+}
+
+footer ul li span {
+	color: #bbb;
+	font-size: 16px;
+}
+
+footer ul li .icon-chevron-thin-right {
+	color: #bbb;
+	font-size: 35px;
+}
+
+.footerCreateButton {
 	background-color: white;
 	border: none;
 	border-radius: 7px;
-	padding: 18px 34px 18px 74px;
-	color: #0080FF;
+	padding: 8px 13px 8px 12px;
+	color: #0076B4;
 	font-size: 16px;
-	margin-left: 43%;
-	margin-top: 122px;
-}
-#lastWords{
-	text-align: center;
+	margin-top: 20px;
 	position: relative;
-	top: 35px;
-	font-size: 12px;
+	left: 18px;
 }
 
-#footerCreateButton span{
-	background-color: blue;
-	background-image: url("/images/linkedin-logo-isolated.png");
-	background-repeat:no-repeat;
-	z-index: 151;
-	height: 35px;
-	width: 10px;
-	position: absolute;
+.lastWords{
+	text-align: center;
+	position: relative;
+	top: 45px;
+	left: 22px;
+	font-size: 11px;
+	color: #bbb
 }
+
+.footerCreateButton span{
+	background-color: #0076B4;
+	background-image: url("/images/linkedin-logo-isolated.png");
+	background-repeat: no-repeat;
+	background-position-x: 6px;
+	background-position-y: 4px;
+	border-radius: 3px;
+	display: inline-block;
+	vertical-align: middle;
+	width: 42px;
+	height: 41px;
+	margin-right: 12px;
+}
+

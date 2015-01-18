@@ -7,20 +7,25 @@
 		<script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
 		<![endif]-->
 		<link href="stylesheets/style.css" type="text/css" rel="stylesheet" >
-		</head>
+		<link rel="stylesheet" href="http://i.icomoon.io/public/temp/2715e363b2/UntitledProject/style.css">
+	</head>
+
 		<body>
 			<header>
-				<div id="slideshareLogo">
-					<img id="logo" src="images/ios_icon.png" />
-					<span>slideshare</span>
-				</div>
-				<div id="searchWrapper">
-					<input id="search" placeholder="Search" />
-				</div>
-				<div>
-					<button id="Upload">Upload</button>
-					<button id="pen" ></button>
-					<img id="personImg" src="images/person.jpg" />
+				<div class="headerContainer">
+					<div class="slideshareLogo">
+						<span>slideshare</span>
+					</div>
+					<div class="searchWrapper">
+						<input class="search" placeholder="Search" >
+							<button class="icon-search" type="submit" ></button>
+						</input>
+					</div>
+					<div class="userButtons">
+						<button class="btn">Upload</button>
+						<button class="btn" id="guide"></button>
+						<span class="icon-user"></span>
+					</div>
 				</div>
 			</header>
 			<nav>
@@ -32,36 +37,51 @@
 				<li>Design</li>
 				<li>MoreTopics</li>
 			</nav>
-			<div id="contentWrapper" >
+			<div class="contentWrapper" >
 				<h1>Create Your First SlideShare</h1>
-				<p>Share a fun versual of your professional journey with just a click</p>
-				<div id="createOrNot">
-					<button id="createNow">Create Now</button>	
-					<img id="linkedin" src="images/linkedin-logo-isolated.png">					
-					<button id="noThanks">No Thanks</button>
+				<p>Share a fun visual of your professional journey with just a click</p>
+				<div class="createOrNot">
+					<button class="createNow">Create Now</button>	
+					<img class="linkedin" src="images/linkedin-logo-isolated.png">					
+					<button class="noThanks">No Thanks</button>
 				</div>	
-				<div>
+				<div class="contentImages">
 					<img id="mobile" src="images/hills-mobile-scr-1x.png" />
 					<img id="browser" src="images/hills-browser-scr-1x.png" />
 					<img id="tablet" src="images/hills-tablet-scr-1x.png" />
 				</div>	
 			</div>
 			<footer>
-				<div id="footerContent">
+				<div class="footerContent">
 					<p>Get a new look at your key career milestones and share your</p>
 					<p>Professional Journey with others</p>
-				</div>
-				<div>
-					<div></div>
-					<img src="" />
-					<div></div>
-					<img src="" />
-					<div></div>
-				</div>
-				<button id="footerCreateButton">
 					<span></span>
+
+				</div>
+				<ul>
+					<li>
+						<p>Connect via LinkedIn</p>
+						<span>to automatically input your data</span>
+					</li>
+					<li>
+						<i class="icon-chevron-thin-right"></i>
+					</li>
+					<li>
+						<p>Pick a Template</p>
+						<span>of your choice</span>
+					</li>
+					<li>
+						<i class="icon-chevron-thin-right"></i>
+					</li>
+					<li>
+						<p>Publish Your Journey</p>
+						<span>to SlideShare</span>
+					</li>
+				</ul>
+				<button class="footerCreateButton">
+					<span id="icon-linkedin"></span>
 					Create Now</button>
-				<p id="lastWords">Linkedin Corporation 2015</p>
+				<p class="lastWords">LinkedIn Corporation &copy 2015</p>
 			</footer>
 		</body>
 	</html>
