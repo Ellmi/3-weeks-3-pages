@@ -16,7 +16,7 @@ header div{
 }
 
 header .slideshareLogo span {
-	background: url("/images/ios_icon.png") no-repeat;
+	background: url("../images/ios_icon.png") no-repeat;
 	background-size: 40px;
 	display: inline-block;
 	height: 40px;
@@ -70,7 +70,7 @@ header .btn {
 }
 
 header #guide{
-	background-image: url("/images/hd-icn.svg");
+	background-image: url("../images/hd-icn.svg");
 	width: 45px;
 	vertical-align: middle;
 	background-position: 50% 50%;
@@ -237,7 +237,7 @@ footer ul li .icon-chevron-thin-right {
 
 .footerCreateButton span{
 	background-color: #0076B4;
-	background-image: url("/images/linkedin-logo-isolated.png");
+	background-image: url("../images/linkedin-logo-isolated.png");
 	background-repeat: no-repeat;
 	background-position-x: 6px;
 	background-position-y: 4px;
