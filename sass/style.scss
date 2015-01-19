@@ -40,6 +40,7 @@ header .search {
 	font-size: 14px;
 	color: white;
 	margin-left: 15px;
+	outline: none;
 }
 
 header .icon-search:before {
@@ -48,11 +49,13 @@ header .icon-search:before {
 	right: 34px;
 	font-size: 15px;
 	vertical-align: middle;
+	outline: none;
 }
 
 header button.icon-search {
 	background-color: transparent;
 	border: none;
+	outline: none;
 }
 
 header .userButtons{
@@ -67,6 +70,7 @@ header .btn {
 	width: 70px;
 	height: 30px;
 	font-size: 13px;
+	outline: none;
 }
 
 header #guide{
