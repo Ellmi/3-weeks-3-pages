@@ -126,6 +126,7 @@ button.createNow {
 	color: white;
 	font-size: 19px;
 	line-height: 20px;
+	outline: none;
 }
 
 .linkedin{
@@ -141,6 +142,7 @@ button.noThanks {
 	color: white;
 	font-size: 17px;
 	border: 2px solid #fff;
+	outline: none;
 	}
 
 div.createOrNot {
@@ -228,16 +230,18 @@ footer ul li .icon-chevron-thin-right {
 	margin-top: 20px;
 	position: relative;
 	left: 18px;
+	outline: none;
 }
 
 .lastWords{
 	text-align: center;
 	position: relative;
 	top: 45px;
-	left: 22px;
+	left: 240px;
 	font-size: 11px;
-	color: #bbb
-}
+	color: #bbb;
+	width: 1000px;
+	}
 
 .footerCreateButton span{
 	background-color: #0076B4;
